@@ -1,0 +1,209 @@
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.container-mid {
+	margin: 0.5rem 1rem 2rem 1rem;
+	width: 50%;
+	overflow: auto;
+}
+
+/*******************
+  FONT SETUP
+*******************/
+
+body {
+	font-family: 'Josefin Sans' , sans-serif;
+	font-weight: 400;
+}
+h1 {
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 800;
+}
+a {
+	font-family: 'Josefin Sans' , sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/*******************
+  GENERAL SETUP
+*******************/
+
+html {
+	font-size: 100.01%;
+}
+
+/*******************
+  HEADER SETUP
+*******************/
+
+header {
+	/* background-color: rgba(0, 0, 0, 0.6); */
+	background: black url('../images/headerbackground.jpg') top center no-repeat;
+	border-bottom: 5px solid #FFF653;
+	color: #CEC441;
+	padding: 1em 0;
+	height: 40rem;
+	margin:  0.5rem 1rem 0rem 1rem;
+	/* z-index: 1; */
+}
+
+h1 {
+	color: #CEC441;
+	margin: 0;
+	font-size: 6rem;
+	width: 50%;
+	float: left;
+}
+header ul {
+	margin-bottom: 0;
+}
+
+header nav {
+	float: right;
+	font-size: 1.5rem;
+}
+
+header li {
+	display: inline-block;
+	margin:  0 0.5em;
+}
+header a {
+	color: #CEC441;
+	font-size: 1rem;
+}
+
+/*********************
+	PROMO MESSAGE SETUP
+**********************/
+
+.promo-message {
+	background-color: #C6C6C6;
+	text-align: center;
+	padding: 1em 0;
+	margin:  0rem 1rem 0.5rem 1rem;
+}
+.promo-message p {
+	margin:  0;
+	font-style: italic;
+	font-size: 3rem;
+}
+
+
+/*******************
+  TAB AREA SETUP
+*******************/
+
+#tabs p {
+	font-family: Raleway;
+	font-weight: 400;
+}
+
+.tab-layout {
+	float: left;
+}
+
+.country-name {
+	font-weight: 600;
+	font-family: Raleway sans-serif;
+	font-size: 1.5rem;
+	width: 50%;
+	float: left;
+	/* margin: 1rem 1rem 1rem 1rem; */
+	padding: 0.2rem 0 0.2rem 1rem;
+	margin-top: 0.1rem;
+}
+
+.launch-button {
+	color: rgba(0, 0, 0, 1.0);	
+	padding: 0.8em 0;
+	width: 50%;
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	float: left;
+	border-bottom: 3px solid #999999;
+	background-color: #C6C6C6;
+	/* left: 5rem; */
+}
+
+.country-map {
+	width: 48%;
+	/* height: 12rem; */
+	/* clear: both; */
+	float: left;
+	margin-right: 0.5rem;
+	margin-top: 1rem;
+}
+
+.country-text {
+	float: left;
+	margin-left: 0.2rem;
+	width: 48%;
+	/* margin: 0.2rem 1.5rem; */
+	/* padding: 0rem 1.5rem; */
+}
+
+/*******************
+ SOCIAL MEDIA SETUP
+*******************/
+
+.social-div {
+	float: left;
+	width: 40%;
+	margin-left: 2rem;
+	border: 0.2rem solid blue;
+	border-radius: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+.social-div p {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+/*******************
+ DROP-DOWN SELECTOR SETUP
+********************/
+
+.combo-drop {
+	font-weight: 700;
+	font-family: 'Josefin Sans' sans-serif;
+	font-size: 4rem;
+	/* margin: 0 auto; */
+	border: 2px solid red;
+	width: 95%;
+}
+
+
+/*******************
+  FOOTER SETUP
+*******************/
+footer {
+	clear: both;
+	background-color: rgba(0, 0, 0, 1.0);
+	color: rgba(255, 255, 255, 1.0);
+	padding: 1em;
+	margin: 8rem 1rem 0rem 1rem;
+}

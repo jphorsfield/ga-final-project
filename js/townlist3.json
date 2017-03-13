@@ -1,0 +1,78 @@
+{"towns": [
+  {
+    "id": "1",
+    "name": "Morzine",
+    "country": "france"
+  },
+  {
+    "id": "2",
+    "name": "Chamonix",
+    "country": "france"
+  },
+  {
+    "id": "3",
+    "name": "Tignes",
+    "country": "france"
+  },
+  {
+    "id": "1",
+    "name": "Zugspitze",
+    "country": "germany"
+  },
+  {
+    "id": "2",
+    "name": "Garmisch-Partikirschen",
+    "country": "germany"
+  },
+  {
+    "id": "3",
+    "name": "Garmisch",
+    "country": "germany"
+  },
+  {
+    "id": "1",
+    "name": "Kitzbühel",
+    "country": "austria"
+  },
+  {
+    "id": "2",
+    "name": "Lech-Zurs",
+    "country": "austria"
+  },
+  {
+    "id": "3",
+    "name": "Seefeld",
+    "country": "austria"
+  },
+  {
+    "id": "1",
+    "name": "Davos",
+    "country": "switzerland"
+  },
+  {
+    "id": "2",
+    "name": "St. Moritz",
+    "country": "switzerland"
+  },
+  {
+    "id": "3",
+    "name": "Zermatt",
+    "country": "switzerland"
+  },
+  {
+    "id": "1",
+    "name": "Piedmont",
+    "country": "italy"
+  },
+  {
+    "id": "2",
+    "name": "Lombardy",
+    "country": "italy"
+  },
+  {
+    "id": "3",
+    "name": "Veneto",
+    "country": "italy"
+  }
+]
+}

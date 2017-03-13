@@ -1,0 +1,28 @@
+{"towns": [
+  {
+    "id": "1",
+    "picture": "french-alps.jpg",
+    "country": "france"
+  },
+  {
+    "id": "2",
+    "picture": "bavarian-alps.jpg",
+    "country": "germany"
+  },
+  {
+    "id": "3",
+    "picture": "headerbackground.jpg",
+    "country": "switzerland"
+  },
+  {
+    "id": "1",
+    "picture": "headerbackground.jpg",
+    "country": "austria"
+  },
+  {
+    "id": "2",
+    "picture": "headerbackground.jpg",
+    "country": "italy"
+  }
+  ]
+}

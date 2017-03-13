@@ -1,0 +1,29 @@
+{"france": [
+  {
+    "id": "1",
+    "name": "Morzine"
+  },
+  {
+    "id": "2",
+    "name": "Chamonix"
+  },
+  {
+    "id": "3",
+    "name": "Tignes"
+  }
+],
+"germany": [
+  {
+    "id": "1",
+    "name": "Zugspitze"
+  },
+  {
+    "id": "2",
+    "name": "Garmisch-Partikirschen"
+  },
+  {
+    "id": "3",
+    "name": "Garmisch"
+  }
+]
+}

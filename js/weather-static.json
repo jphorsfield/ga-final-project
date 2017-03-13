@@ -1,0 +1,793 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "geolookup": 1,
+      "forecast": 1
+    }
+  },
+  "location": {
+    "type": "INTLCITY",
+    "country": "FR",
+    "country_iso3166": "FR",
+    "country_name": "France",
+    "state": "74",
+    "city": "Chamonix",
+    "tz_short": "CET",
+    "tz_long": "Europe/Paris",
+    "lat": "45.93000031",
+    "lon": "6.86999989",
+    "zip": "00000",
+    "magic": "15",
+    "wmo": "06717",
+    "l": "/q/zmw:00000.15.06717",
+    "requesturl": "global/stations/06717.html",
+    "wuiurl": "https://www.wunderground.com/global/stations/06717.html",
+    "nearby_weather_stations": {
+      "airport": {
+        "station": [
+          {
+            "city": "Le Grand St. Bernard",
+            "state": "",
+            "country": "SW",
+            "icao": "",
+            "lat": "45.86888885",
+            "lon": "7.17083311"
+          },
+          {
+            "city": "",
+            "state": "",
+            "country": "",
+            "icao": "",
+            "lat": "",
+            "lon": ""
+          },
+          {
+            "city": "Annecy-Haute-Savoie-Mont",
+            "state": "",
+            "country": "FR",
+            "icao": "LFLP",
+            "lat": "45.93000031",
+            "lon": "6.11000013"
+          }
+        ]
+      },
+      "pws": {
+        "station": [
+          {
+            "neighborhood": "Rue Joseph Vallot",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI11",
+            "lat": 45.928471,
+            "lon": 6.87066,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Rue Mummery",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI30",
+            "lat": 45.928188,
+            "lon": 6.868632,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Chemin des Fleurs",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI26",
+            "lat": 45.925163,
+            "lon": 6.868578,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Rue de l'Hôtel de ville",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI13",
+            "lat": 45.923698,
+            "lon": 6.869433,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Place du Triangle de l'Amitié",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI6",
+            "lat": 45.923687,
+            "lon": 6.868859,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Chemin des Bios",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI32",
+            "lat": 45.924641,
+            "lon": 6.864556,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Chemin René Payot",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI9",
+            "lat": 45.921459,
+            "lon": 6.869203,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Rue du Docteur Paccard",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI20",
+            "lat": 45.921425,
+            "lon": 6.867857,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Chemin des Cristalliers",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI10",
+            "lat": 45.931698,
+            "lon": 6.88495,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Montée des Moentieux",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI41",
+            "lat": 45.921814,
+            "lon": 6.859062,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Route des Lierres",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI37",
+            "lat": 45.914406,
+            "lon": 6.854178,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Chamonix",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "FRANCE",
+            "country": "FR",
+            "id": "IFRANCEC5",
+            "lat": 45.913612,
+            "lon": 6.851389,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Chemin de Piralotaz",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI28",
+            "lat": 45.907307,
+            "lon": 6.839665,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Allée Poseto",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI8",
+            "lat": 45.905987,
+            "lon": 6.84046,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Rives Road",
+            "city": "Chamonix",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI2",
+            "lat": 45.905163,
+            "lon": 6.839763,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Route du Chapeau",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI39",
+            "lat": 45.957344,
+            "lon": 6.905341,
+            "distance_km": 4,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Chemin des Grassonnets",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI5",
+            "lat": 45.969406,
+            "lon": 6.917506,
+            "distance_km": 5,
+            "distance_mi": 3
+          },
+          {
+            "neighborhood": "Chemin des Carterons",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI22",
+            "lat": 45.976822,
+            "lon": 6.927511,
+            "distance_km": 6,
+            "distance_mi": 4
+          },
+          {
+            "neighborhood": "Voie Communale N°1",
+            "city": "Servoz",
+            "state": "",
+            "country": "FR",
+            "id": "ISERVOZ2",
+            "lat": 45.941124,
+            "lon": 6.767825,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+          {
+            "neighborhood": "Chemin Ancien du Mont",
+            "city": "Servoz",
+            "state": "",
+            "country": "FR",
+            "id": "ISERVOZ5",
+            "lat": 45.933796,
+            "lon": 6.769207,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+          {
+            "neighborhood": "Chemin Rural de sous les Bourrés",
+            "city": "Servoz",
+            "state": "",
+            "country": "FR",
+            "id": "ISERVOZ3",
+            "lat": 45.930901,
+            "lon": 6.761232,
+            "distance_km": 8,
+            "distance_mi": 5
+          },
+          {
+            "neighborhood": "Chemin de la Forge",
+            "city": "Passy",
+            "state": "",
+            "country": "FR",
+            "id": "IPASSY2",
+            "lat": 45.933178,
+            "lon": 6.721709,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Chemin Vicinal Ordinaire N°4 de Salvagny à la Montagne de Salles",
+            "city": "Sixt-Fer-à-Cheval",
+            "state": "",
+            "country": "FR",
+            "id": "ISIXTFER2",
+            "lat": 46.00045,
+            "lon": 6.758693,
+            "distance_km": 11,
+            "distance_mi": 6
+          },
+          {
+            "neighborhood": "Rue des Eteules",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI49",
+            "lat": 45.923698,
+            "lon": 6.869433,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Chamonix-Mont-Blanc",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI55",
+            "lat": 45.921673,
+            "lon": 6.867877,
+            "distance_km": 0,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Chamonix-Mont-Blanc",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "74",
+            "country": "FR",
+            "id": "I74CHAMO2",
+            "lat": 45.91679,
+            "lon": 6.867501,
+            "distance_km": 1,
+            "distance_mi": 0
+          },
+          {
+            "neighborhood": "Chamonix-Mont-Blanc",
+            "city": "Chamonix-Mont-Blanc",
+            "state": "",
+            "country": "FR",
+            "id": "ICHAMONI54",
+            "lat": 45.946301,
+            "lon": 6.897238,
+            "distance_km": 2,
+            "distance_mi": 1
+          },
+          {
+            "neighborhood": "Chamonix-Mont-Blanc",
+            "city": "Les Bossons",
+            "state": "74",
+            "country": "FR",
+            "id": "I74LESBO2",
+            "lat": 45.904667,
+            "lon": 6.841659,
+            "distance_km": 3,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Chamonix-Mont-Blanc",
+            "city": "Les Tines",
+            "state": "74",
+            "country": "FR",
+            "id": "I74LESTI2",
+            "lat": 45.955902,
+            "lon": 6.907379,
+            "distance_km": 4,
+            "distance_mi": 2
+          },
+          {
+            "neighborhood": "Les Houches",
+            "city": "Les Houches",
+            "state": "74",
+            "country": "FR",
+            "id": "I74LESHO3",
+            "lat": 45.894085,
+            "lon": 6.805523,
+            "distance_km": 6,
+            "distance_mi": 3
+          },
+          {
+            "neighborhood": "Les Houches",
+            "city": "Les Houches",
+            "state": "74",
+            "country": "FR",
+            "id": "I74LESHO4",
+            "lat": 45.890388,
+            "lon": 6.798735,
+            "distance_km": 7,
+            "distance_mi": 4
+          },
+          {
+            "neighborhood": "Les Houches",
+            "city": "Les Houches",
+            "state": "74",
+            "country": "FR",
+            "id": "I74LESHO2",
+            "lat": 45.889446,
+            "lon": 6.794832,
+            "distance_km": 7,
+            "distance_mi": 4
+          }
+        ]
+      }
+    }
+  },
+  "forecast": {
+    "txt_forecast": {
+      "date": "6:36 PM CET",
+      "forecastday": [
+        {
+          "period": 0,
+          "icon": "snow",
+          "icon_url": "http://icons.wxug.com/i/c/k/snow.gif",
+          "title": "Thursday",
+          "fcttext": "Snow likely early. Lows overnight in the upper 20s.",
+          "fcttext_metric": "Snow likely early. Low -2C.",
+          "pop": "40"
+        },
+        {
+          "period": 1,
+          "icon": "nt_snow",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_snow.gif",
+          "title": "Thursday Night",
+          "fcttext": "Snow this evening will give way to foggy conditions late. Low 29F. Winds light and variable. Chance of snow 40%.",
+          "fcttext_metric": "Snow this evening will give way to foggy conditions late. Low -2C. Winds light and variable. Chance of snow 50%.",
+          "pop": "40"
+        },
+        {
+          "period": 2,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Friday",
+          "fcttext": "Sunny skies. High 43F. Winds NE at 5 to 10 mph.",
+          "fcttext_metric": "Sunny skies. High 6C. Winds NE at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 3,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Friday Night",
+          "fcttext": "Clear. Low 27F. Winds light and variable.",
+          "fcttext_metric": "Clear. Low -3C. Winds light and variable.",
+          "pop": "0"
+        },
+        {
+          "period": 4,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Saturday",
+          "fcttext": "Sunshine and some clouds. High 47F. Winds light and variable.",
+          "fcttext_metric": "Sunny, along with a few afternoon clouds. High 8C. Winds light and variable.",
+          "pop": "0"
+        },
+        {
+          "period": 5,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Saturday Night",
+          "fcttext": "A few clouds from time to time. Low around 30F. Winds light and variable.",
+          "fcttext_metric": "A few clouds. Low -1C. Winds light and variable.",
+          "pop": "0"
+        },
+        {
+          "period": 6,
+          "icon": "chancerain",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+          "title": "Sunday",
+          "fcttext": "Cloudy with occasional showers. High 42F. Winds light and variable. Chance of rain 40%.",
+          "fcttext_metric": "Cloudy with occasional showers. High near 5C. Winds light and variable. Chance of rain 40%.",
+          "pop": "40"
+        },
+        {
+          "period": 7,
+          "icon": "nt_snow",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_snow.gif",
+          "title": "Sunday Night",
+          "fcttext": "Variably cloudy with snow showers. Low 29F. Winds light and variable. Chance of snow 40%. Snowfall around one inch.",
+          "fcttext_metric": "Occasional snow showers. Low -2C. Winds light and variable. Chance of snow 40%. 2-3cm of snow expected.",
+          "pop": "40"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {
+          "date": {
+            "epoch": "1489082400",
+            "pretty": "7:00 PM CET on March 09, 2017",
+            "day": 9,
+            "month": 3,
+            "year": 2017,
+            "yday": 67,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "0",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Thu",
+            "weekday": "Thursday",
+            "ampm": "PM",
+            "tz_short": "CET",
+            "tz_long": "Europe/Paris"
+          },
+          "period": 1,
+          "high": {
+            "fahrenheit": "47",
+            "celsius": "8"
+          },
+          "low": {
+            "fahrenheit": "29",
+            "celsius": "-2"
+          },
+          "conditions": "Snow",
+          "icon": "snow",
+          "icon_url": "http://icons.wxug.com/i/c/k/snow.gif",
+          "skyicon": "",
+          "pop": 40,
+          "qpf_allday": {
+            "in": 0.02,
+            "mm": 1
+          },
+          "qpf_day": {
+            "in": null,
+            "mm": null
+          },
+          "qpf_night": {
+            "in": 0.02,
+            "mm": 1
+          },
+          "snow_allday": {
+            "in": 0.1,
+            "cm": 0.3
+          },
+          "snow_day": {
+            "in": null,
+            "cm": null
+          },
+          "snow_night": {
+            "in": 0.1,
+            "cm": 0.3
+          },
+          "maxwind": {
+            "mph": 1,
+            "kph": 2,
+            "dir": "",
+            "degrees": 0
+          },
+          "avewind": {
+            "mph": 0,
+            "kph": 0,
+            "dir": "North",
+            "degrees": 349
+          },
+          "avehumidity": 86,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1489168800",
+            "pretty": "7:00 PM CET on March 10, 2017",
+            "day": 10,
+            "month": 3,
+            "year": 2017,
+            "yday": 68,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "0",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Fri",
+            "weekday": "Friday",
+            "ampm": "PM",
+            "tz_short": "CET",
+            "tz_long": "Europe/Paris"
+          },
+          "period": 2,
+          "high": {
+            "fahrenheit": "43",
+            "celsius": "6"
+          },
+          "low": {
+            "fahrenheit": "27",
+            "celsius": "-3"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "NE",
+            "degrees": 47
+          },
+          "avewind": {
+            "mph": 7,
+            "kph": 11,
+            "dir": "NE",
+            "degrees": 47
+          },
+          "avehumidity": 49,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1489255200",
+            "pretty": "7:00 PM CET on March 11, 2017",
+            "day": 11,
+            "month": 3,
+            "year": 2017,
+            "yday": 69,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "0",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Sat",
+            "weekday": "Saturday",
+            "ampm": "PM",
+            "tz_short": "CET",
+            "tz_long": "Europe/Paris"
+          },
+          "period": 3,
+          "high": {
+            "fahrenheit": "47",
+            "celsius": "8"
+          },
+          "low": {
+            "fahrenheit": "30",
+            "celsius": "-1"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 0,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 5,
+            "kph": 8,
+            "dir": "NW",
+            "degrees": 324
+          },
+          "avewind": {
+            "mph": 4,
+            "kph": 6,
+            "dir": "NW",
+            "degrees": 324
+          },
+          "avehumidity": 49,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1489341600",
+            "pretty": "7:00 PM CET on March 12, 2017",
+            "day": 12,
+            "month": 3,
+            "year": 2017,
+            "yday": 70,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "0",
+            "monthname": "March",
+            "monthname_short": "Mar",
+            "weekday_short": "Sun",
+            "weekday": "Sunday",
+            "ampm": "PM",
+            "tz_short": "CET",
+            "tz_long": "Europe/Paris"
+          },
+          "period": 4,
+          "high": {
+            "fahrenheit": "42",
+            "celsius": "6"
+          },
+          "low": {
+            "fahrenheit": "29",
+            "celsius": "-2"
+          },
+          "conditions": "Chance of Rain",
+          "icon": "chancerain",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+          "skyicon": "",
+          "pop": 40,
+          "qpf_allday": {
+            "in": 0.15,
+            "mm": 4
+          },
+          "qpf_day": {
+            "in": 0.06,
+            "mm": 2
+          },
+          "qpf_night": {
+            "in": 0.1,
+            "mm": 3
+          },
+          "snow_allday": {
+            "in": 0.9,
+            "cm": 2.3
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0.9,
+            "cm": 2.3
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "NW",
+            "degrees": 306
+          },
+          "avewind": {
+            "mph": 5,
+            "kph": 8,
+            "dir": "NW",
+            "degrees": 306
+          },
+          "avehumidity": 65,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}
