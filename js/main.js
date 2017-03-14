@@ -98,17 +98,4 @@ $('#town-list').on('selected', function () {
 
 });
 
-// OpenWeather API key - 0083271c623d722a24a18686f80d0e12
-// Weather Underground API Key - fe4f7c74b1a52936
 
-// jQuery(document).ready(function($) {
-//   $.ajax({
-//   url : "http://api.wunderground.com/api/fe4f7c74b1a52936/geolookup/forecast/q/IA/chamonix.json",
-//   dataType : "jsonp",
-//   success : function(parsed_json) {
-//   var location = parsed_json['location']['city'];
-//   var temp_f = parsed_json['current_observation']['temp_f'];
-//   alert("Current temperature in " + location + " is: " + temp_f);
-//   }
-//   });
-// });
